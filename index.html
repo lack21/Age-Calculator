@@ -1,0 +1,57 @@
+<!-- lear -->
+<!-- Age Calculator -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <!-- Container -->
+    <section class="container">
+      <div class="top-content">
+        <div class="item">
+          <label for="day">DAY</label>
+          <input type="text" name="day" id="day" placeholder="DD" />
+        </div>
+        <div class="item">
+          <label for="month">MONTH</label>
+          <input type="text" name="month" id="month" placeholder="MM" />
+        </div>
+        <div class="item">
+          <label for="year">YEAR</label>
+          <input type="text" name="year" id="year" placeholder="YYYY" />
+        </div>
+      </div>
+
+      <button class="check-btn">
+        <img src="images/icon-arrow.svg" alt="icon-arrow" />
+      </button>
+
+      <div class="bottom-content">
+        <h2 class="result"><span class="years">--</span>Years</h2>
+        <h2 class="result"><span class="months">--</span>Months</h2>
+        <h2 class="result"><span class="days">--</span>Days</h2>
+      </div>
+    </section>
+
+    <!-- Javascript -->
+    <noscript>You need enabled Javascript to run this app!</noscript>
+    <script src="main.js"></script>
+  </body>
+</html>
